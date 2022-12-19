@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dynamicwebsite';
+  notificationsCount = 10;
+  updateNotificationsCount(count:number){
+    this.notificationsCount = count;
+  }
 }
